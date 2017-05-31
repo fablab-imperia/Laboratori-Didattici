@@ -30,13 +30,13 @@ void loop() {
   else
   {
     
-   int freq=map(luce,25,100,20,20000);
+   int freq=map(luce,25,100,20,10000);
    Serial.print("VALORE FREQUENZA: ");
    Serial.println(freq);
    tone(buzzerpin,freq);
   }
-  //tone(buzzerpin,440);
-   delay (100);
+  
+   delay (200);
 
 }
 
